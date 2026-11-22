@@ -56,7 +56,7 @@ for start in range(0, len(visible), 2):
     cols = st.columns(2, gap="large")
     for col, photo in zip(cols, visible[start:start+2]):
         with col:
-            st.image(str(BASE / "images" / photo["file"]), use_container_width=True)
+            st.image(str(BASE / photo["file"]), use_container_width=True)
             st.markdown(f'<div class="caption"><strong>{photo["title"]}</strong><div class="tag">{photo["category"]}</div><div class="small-note">{photo["desc"]}</div></div>', unsafe_allow_html=True)
             st.write("")
 

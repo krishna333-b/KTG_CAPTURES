@@ -99,7 +99,7 @@ with hero_text:
     st.markdown('<p class="hero-copy">Finding beauty in the little things. Stories told through light, colour and quiet details — from wildlife and nature to coastlines, architecture, culture and the world around us.</p>', unsafe_allow_html=True)
     st.markdown('<div class="hero-note">Observe slowly&nbsp;&nbsp; · &nbsp;&nbsp;Feel deeply&nbsp;&nbsp; · &nbsp;&nbsp;Capture honestly</div>', unsafe_allow_html=True)
 with hero_image:
-    st.image(str(photo_path("01-seascape-boat.jpeg")), use_container_width=True)
+    st.image(str(photo_path("cover-lantern.jpeg")), use_container_width=True)
 
 st.write("")
 stat1, stat2, stat3 = st.columns(3)

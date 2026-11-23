@@ -10,8 +10,8 @@ st.set_page_config(
 
 BASE = Path(__file__).parent
 
-PHOTOS = [
-    {"file": "01-seascape-boat.jpeg", "title": "Between Tides", "category": "Seascapes", "description": "A quiet boat resting on an endless blue horizon."},
+PHOTOS = [   
+    {"file": "15-hanging-lantern.jpeg", "title": "A Quiet Glow", "category": "Architecture", "description": "A hanging lantern framed by warm afternoon light and soft greenery."},
     {"file": "02-bird-in-flight.jpeg", "title": "A Moment in Flight", "category": "Wildlife", "description": "A fleeting silhouette framed by open sky."},
     {"file": "03-red-parrot.jpeg", "title": "A Flash of Red", "category": "Wildlife", "description": "Colour, character and a curious gaze."},
     {"file": "04-toucan.jpeg", "title": "The Toucan", "category": "Wildlife", "description": "A close study of bold colour and remarkable detail."},
@@ -25,7 +25,7 @@ PHOTOS = [
     {"file": "12-wings-above.jpeg", "title": "Wings Above", "category": "Wildlife", "description": "Birds gliding across a vast, cloud-filled sky."},
     {"file": "13-crystal-light.jpeg", "title": "Crystal Light", "category": "Architecture", "description": "A dramatic study of a grand chandelier and its intricate details."},
     {"file": "14-pink-cockatoo.jpeg", "title": "A Gentle Presence", "category": "Wildlife", "description": "A soft-pink cockatoo pausing for a quiet moment on its perch."},
-    {"file": "15-hanging-lantern.jpeg", "title": "A Quiet Glow", "category": "Architecture", "description": "A hanging lantern framed by warm afternoon light and soft greenery."},
+    {"file": "01-seascape-boat.jpeg", "title": "Between Tides", "category": "Seascapes", "description": "A quiet boat resting on an endless blue horizon."},
 ]
 
 
